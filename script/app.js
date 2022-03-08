@@ -12,8 +12,9 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
       	if (request.status >= 200 && request.status < 400) {
       	  	console.log(data)  
       	  	console.log(data.nadal)
+      	  	console.log(data.nadal.tunnid.Array)
 			const parent = this.el.parentElement;
-            Array.prototype.forEach.call(parent.children, child => {
+            Array.prototype.forEach.call(parent.children, child => { //this shit not work
               	const card = document.createElement('div')
               	card.setAttribute('class', 'card')
 				

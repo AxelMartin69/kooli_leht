@@ -1,1 +1,1 @@
-import './api.js'
+const tunniplaan = new tunniplaan()

@@ -26,7 +26,7 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
 				*/
               	container.appendChild(card)
               	card.appendChild(h1)
-              	card.appendChild(p)
+              	//card.appendChild(p)
             })
       	} else {
       	  	console.log('error')
@@ -35,5 +35,3 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
 
     request.send()
 }
-
-export {tunniplaan}

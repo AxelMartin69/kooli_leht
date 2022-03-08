@@ -47,7 +47,7 @@ a {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
-    position: center;
+    position: static;
     margin: auto;
   }
   
@@ -64,7 +64,7 @@ a {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #333;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;

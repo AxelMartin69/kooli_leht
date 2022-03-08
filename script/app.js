@@ -12,9 +12,7 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
       	if (request.status >= 200 && request.status < 400) {
       	  	console.log(data)  
       	  	console.log(data.nadal)
-      	  	console.log(data.nadal.tunnid)
-			const parent = this.el.parentElement;
-            Array.prototype.forEach.call(parent.children, child => { //this shit not work
+			tunnid.forEach(element => console.log(element));
               	const card = document.createElement('div')
               	card.setAttribute('class', 'card')
 				
@@ -28,7 +26,7 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
               	container.appendChild(card)
               	card.appendChild(h1)
               	//card.appendChild(p)
-            })
+            }
       	} else {
       	  	console.log('error')
       	}

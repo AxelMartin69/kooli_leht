@@ -19,9 +19,9 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
               	const h1 = document.createElement('h1')
               	h1.textContent = tunnid
 				/**
-              const p = document.createElement('p')
-              movie.description = movie.description.substring(0, 300)
-              p.textContent = `${movie.description}...`
+              	const p = document.createElement('p')
+              	movie.description = movie.description.substring(0, 300)
+              	p.textContent = `${movie.description}...`
 				*/
               	container.appendChild(card)
               	card.appendChild(h1)
@@ -34,3 +34,5 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
 
     request.send()
 }
+
+export {tunniplaan}

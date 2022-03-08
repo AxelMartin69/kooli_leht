@@ -4,12 +4,8 @@
     request.open('GET', `https://siseveeb.voco.ee/veebilehe_andmed/tunniplaan?grupp=1529&nadal=2022-03-07`, true)
     request.onload = function () {
       var data = JSON.parse(this.response)
-
       if (request.status >= 200 && request.status < 400) {
-        console.log('works')
-        //data.forEach(movie => {
-        //  console.log('works')
-        //})
+          console.log(data)
       } else {
         console.log('error')
       }

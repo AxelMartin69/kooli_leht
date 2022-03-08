@@ -1,4 +1,4 @@
-const tunniplaan = (id = 1529) => {
+//const tunniplaan = (id = 1529) => {
     var request = new XMLHttpRequest()
 
     request.open('GET', `https://siseveeb.voco.ee/veebilehe_andmed/tunniplaan?grupp=${id}&nadal=2022-03-07`, true)
@@ -15,4 +15,4 @@ const tunniplaan = (id = 1529) => {
     }
 
     request.send()
-}
+//}

@@ -13,7 +13,7 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
       	  	console.log(data)  
       	  	console.log(data.nadal)
 			tunnid.forEach(element => console.log(element));
-              	const card = document.createElement('div')
+            /*  	const card = document.createElement('div')
               	card.setAttribute('class', 'card')
 				
               	const h1 = document.createElement('h1')
@@ -22,11 +22,11 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
               	const p = document.createElement('p')
               	movie.description = movie.description.substring(0, 300)
               	p.textContent = `${movie.description}...`
-				*/
+				
               	container.appendChild(card)
               	card.appendChild(h1)
               	//card.appendChild(p)
-            }
+            }*/
       	} else {
       	  	console.log('error')
       	}

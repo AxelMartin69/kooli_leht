@@ -6,9 +6,10 @@
       var data = JSON.parse(this.response)
 
       if (request.status >= 200 && request.status < 400) {
-        data.forEach(movie => {
-          console.log('works')
-        })
+        console.log('works')
+        //data.forEach(movie => {
+        //  console.log('works')
+        //})
       } else {
         console.log('error')
       }

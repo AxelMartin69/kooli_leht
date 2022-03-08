@@ -2,16 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // initialize carousel
     const carousel = document.querySelectorAll('.carousel');
     M.Carousel.init(carousel, {
+      fullWidth: true,
       indicators: true,
-      height: 900,
-      transition: 500,
-      interval: 3000
+      duration: 500,
     });
     
     // custom function for autoplaying 
     let indicatorItems = document.querySelectorAll('.carousel .indicator-item'),
-        slideTime = 3000,
-        fullWidth = false,
+        slideTime = 4000,
         activeClass = "active";
   
     setInterval(() => {

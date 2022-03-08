@@ -10,12 +10,9 @@ const tunniplaan = (id = 1529, time = '2022-03-07') => {
     request.onload = function () {
       	var data = JSON.parse(this.response)
       	if (request.status >= 200 && request.status < 400) {
-      	  	console.log(data);
-			for (date in data.tunnid) {
-				for (item in date) {
-					console.log(item);
-				}
-			}
+			console.log(data);
+      	  	console.log(data.tunnid["2022-03-07"][0].aine);
+			
             
       	} else {
       	  	console.log('error')

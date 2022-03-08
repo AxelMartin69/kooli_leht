@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // custom function for autoplaying 
     let indicatorItems = document.querySelectorAll('.carousel .indicator-item'),
-        slideTime = 4000,
+        slideTime = 10000,
         activeClass = "active";
   
     setInterval(() => {
@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, slideTime);
   });
-

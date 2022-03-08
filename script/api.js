@@ -1,3 +1,8 @@
+const app = document.getElementById('home')
+
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+
 const tunniplaan = (id = 1529, time = '2022-03-07') => {
     var request = new XMLHttpRequest()
 

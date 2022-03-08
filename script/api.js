@@ -5,7 +5,7 @@
     request.onload = function () {
       var data = JSON.parse(this.response)
       if (request.status >= 200 && request.status < 400) {
-          console.log(data)
+          console.log(data.nadal)
       } else {
         console.log('error')
       }

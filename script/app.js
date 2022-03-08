@@ -1,1 +1,1 @@
-import {tunniplaan} from './api.js'
+import './api.js'
